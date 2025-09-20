@@ -24,7 +24,8 @@
 
 
 
-- [ ] 2.2 Handle preprocessor directives and comments
+- [-] 2.2 Handle preprocessor directives and comments
+
   - Add support for #include, #define, and other preprocessor directives
   - Implement comment parsing (single-line and multi-line)
   - Write tests for preprocessor and comment handling

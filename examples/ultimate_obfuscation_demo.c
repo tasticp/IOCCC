@@ -27,8 +27,7 @@ int __matrix_func_1337(int __matrix_input) {
                     goto __label_return;
                 __state = 1;
         case 1: /* Complex arithmetic transformation */
-                __result = COMPLEX_MUL(__matrix_input, 
-                          __matrix_func_1337(__matrix_input + (~0)));
+                __result = __matrix_input * __matrix_func_1337(__matrix_input - 1);
                 goto __label_return;
     }
     
